@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds') // ID from Jenkins credentials
-        IMAGE_NAME = 'yourusername/yourapp'
+        DOCKERHUB_CREDENTIALS = credentials('0fe9be08-5a5d-4bc1-8915-cd4bd3f43acf') // ID from Jenkins credentials
+        IMAGE_NAME = 's7edgedocker/java-docker-app'
     }
 
     stages {
